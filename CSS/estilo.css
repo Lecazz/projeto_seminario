@@ -1,0 +1,143 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #eef2f3, #dfe9f3);
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* SEÇÕES */
+main {
+    width: 85%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* HERO (primeira seção) */
+#info {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+}
+
+#info h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* BOTÃO */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* PROGRAMA */
+#programa ul {
+    list-style: none;
+}
+
+#programa li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* GRID PALESTRANTES */
+.grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.grid article {
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #43e97b, #38f9d7);
+    color: #222;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.grid article:hover {
+    transform: translateY(-5px);
+}
+
+/* FORMULÁRIO */
+form input {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* FOOTER */
+footer {
+    background: linear-gradient(90deg, #141e30, #243b55);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
