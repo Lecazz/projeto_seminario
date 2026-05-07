@@ -14,7 +14,7 @@ body {
 
 /* HEADER */
 header {
-    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    background: linear-gradient(to bottom, #00E676, #006B3C);
     color: white;
     padding: 20px;
     text-align: center;
@@ -42,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffd700;
+    color: #555555;
 }
 
 /* SEÇÕES */
@@ -60,9 +60,9 @@ section {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* HERO (primeira seção) */
+/* HERO */
 #info {
-    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    background: linear-gradient(135deg, #6B8E23, #9ACD32);
     color: white;
     text-align: center;
 }
@@ -77,12 +77,14 @@ section {
     display: inline-block;
     margin-top: 15px;
     padding: 12px 20px;
-    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    background: linear-gradient(90deg, #FFA07A, #F0E68C);
     color: white;
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
+    border: none;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -109,10 +111,10 @@ section {
 
 .grid article {
     flex: 1;
-    min-width: 200px;
+    min-width: 250px;
     padding: 20px;
     border-radius: 12px;
-    background: linear-gradient(135deg, #43e97b, #38f9d7);
+    background: linear-gradient(135deg, #D2B48C, #708090);
     color: #222;
     text-align: center;
     transition: 0.3s;
@@ -122,15 +124,39 @@ section {
     transform: translateY(-5px);
 }
 
+/* IMAGENS */
+.grid img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid rgba(255,255,255,0.5);
+    margin: 10px 0;
+}
+
 /* FORMULÁRIO */
-form input {
+#inscricao {
+    text-align: center;
+}
+
+#inscricao form {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#inscricao input {
+    width: 100%;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 6px;
 }
 
 /* FOOTER */
 footer {
-    background: linear-gradient(90deg, #141e30, #243b55);
+    background: linear-gradient(90deg, #00E676, #006B3C);
     color: white;
     text-align: center;
     padding: 20px;
